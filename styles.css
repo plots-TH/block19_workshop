@@ -1,0 +1,43 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #freelancers {
+    display: flex;
+    flex-direction: column; /* Stack freelancers vertically */
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+  }
+  
+  .freelancer {
+    display: flex; /* Use flex to align items on the same line */
+    justify-content: space-between; /* Space items evenly */
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+    border: 1px, solid, black;
+  }
+  
+  
+  .cell:last-child {
+    text-align: right; /* Align price to the right */
+  }
+  
+  p {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
